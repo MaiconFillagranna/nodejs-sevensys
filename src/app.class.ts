@@ -7,7 +7,7 @@ const compress = require('compression');
 const cors = require('cors');
 const helmet = require('helmet');
 
-class AppClass {
+class AppClass {   
     public app: express.Application;
     public routes;
     
